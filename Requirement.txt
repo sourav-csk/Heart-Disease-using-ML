@@ -1,0 +1,68 @@
+Install following Lib 
+    |
+    |
+    |
+    |
+    |
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+%matplotlib inline
+
+import os
+print(os.listdir())
+
+import warnings
+warnings.filterwarnings('ignore')
+
+
+
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import precision_score
+from sklearn.metrics import recall_score
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import learning_curve
+from sklearn.naive_bayes import GaussianNB
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+from pandas import DataFrame, Series
+from IPython.display import Image 
+
+from io import StringIO
+import pydotplus
+from sklearn import preprocessing
+from sklearn.tree import export_graphviz
+
+from sklearn import tree
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+________________hd.py file__________________
+
+import pickle
+import plotly_express as px    
+from PIL import Image
+import seaborn as sns 
+import streamlit as st 
+import altair as alt
+import random
+from streamlit_option_menu import option_menu 
+
+//////////////////////////////////////////////////////////////////////////////
+
+
+
+how to run project ?
+
+open terminal & write following command 
+Streamlit run file_name.py 
+
+
+/////////////////////////////////////////////////////////////////////////////////
